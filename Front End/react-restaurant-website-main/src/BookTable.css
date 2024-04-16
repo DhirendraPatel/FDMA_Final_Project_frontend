@@ -1,0 +1,79 @@
+.slots.button{
+  color: aqua;
+}
+
+.slot-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-radius: 2rem;
+  }
+  
+  /* .slot-button {
+    border: none;
+    border-radius: 20px;
+    background-color: #ff00d9;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+   */
+  .slot-button:hover {
+    background-color: #E25822;
+  }
+  
+
+  .table-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .table-button {
+    border: none;
+    border-radius: 20px;
+    background-color: #00ffe5;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .table-button:hover {
+    background-color: #3d3a39;
+  }
+
+  .confirm-button{
+    background-color: green; margin-left: 20%;
+  }
+
+  .slot button {
+    background-color: #ccc; /* Change the background color to indicate the slot is blocked */
+    color: #666; /* Optionally, change the text color */
+    cursor: not-allowed; 
+    cursor: not-allowed;
+    opacity: 0.5;/* Optionally, change the cursor to indicate it's not clickable */
+  }
+  
+
+.selected-slot {
+  background-color: white;
+  color: black;
+  cursor: not-allowed; 
+
+}
+
+
+
+
+#slots{
+  background-color: green;
+}
+
+
+.btn-booked {
+  background-color: #ccc; 
+  color: #999; 
+  cursor: not-allowed;
+}

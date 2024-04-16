@@ -1,0 +1,32 @@
+.admin .slot-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .admin .slot-buttons .btn {
+    width: calc(25% - 10px); 
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+  }
+  
+  .admin .slot-buttons .btn span {
+    width: 100%; 
+    text-align: center; 
+  }
+  
+  .admin {
+    margin-top: 20%;
+    background-color: rgba(255, 255, 255, 0.5); /* Background with transparency */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    padding: 10px;
+    color: gray;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  }
+ 
+  
